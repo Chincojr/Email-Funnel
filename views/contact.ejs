@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <nav class="nav-bar">Email Funnel</nav> 
+
+    <div class="wrapper">
+        <form action="/send" method="post" class="container">
+              <label class="input">
+                <div class="input-text">From Email:</div>
+                <input
+                  type="email"
+                  name="fromEmail"
+                />
+              </label>
+              <label class="input">
+                <div class="input-text">Email Header</div>
+                <input
+                  type="text"
+                  name="eHeader"
+                />
+              </label>
+              <label class="input">
+                <div class="input-text">Email Content </div>
+                <textarea 
+                  name="content"  
+                  cols="30" 
+                  rows="10">
+                </textarea>
+              </label>
+              <label class="input">
+                <div class="input-text">To Email:</div>
+                <input
+                  type="email"
+                  name="toEmail"
+                />
+              </label>
+              <label for="" class="input">
+                  <div class="input-text">
+                      <button type="submit">Submit</button>
+                  </div>
+              </label>
+        </form>
+
+
+
+    <footer class="footer">&#169;2021 Created by Akindeinde David</footer>
+    </div>
+</body>
+</html>
